@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=stylesheet href="cssativ.css">
+</head>
+<body onload="alert('Página carregada!')">
+    <!-- Primeiro botão -->
+    <button class="botao-bandeira" onclick="mostrarNumeroAleatorio(1, 100)">afaste</button>
+
+    <p id="numero"></p>
+
+    <!-- Segundo botão -->
+    <button type="button" onclick="myFunction()">Click Me!</button>
+
+    <p id="demo2"></p>
+
+    <!-- Terceiro botão, corrigido -->
+    <button onclick="sorteio()">Aluno Favorito</button>
+
+    <p id="sorteio"></p>
+    <!-- Script com referência correta -->
+    <script type="text/javascript" src="jsatividade.js"></script>
+    <div onmouseout="this.style.backgroundColor='white'">Passe o mouse e saia</div>
+    <div onmouseover="this.style.backgroundColor='yellow'">Passe o mouse aqui</div>
+    <input type="text" onchange="alert('Valor alterado!')">
+    <input type="text" onkeydown="alert('Tecla pressionada!')">
+</body>
+</html>
